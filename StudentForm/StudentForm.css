@@ -1,0 +1,44 @@
+form{
+    border-radius: 8px;
+    border: 2px solid cornflowerblue;
+    background-color:  seashell;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 15%;
+    color: cornflowerblue;
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: bold;
+    font-size: medium;
+}
+
+h1{
+    text-align: center;
+   }
+
+   label{
+    margin-left: 15px;
+   }
+
+input {
+    border: 1px solid cornflowerblue;
+}
+
+select{
+    border: 1px solid cornflowerblue;
+}
+
+textarea{
+    border: 1px solid cornflowerblue;
+}
+
+button{
+    margin-left: 50%;
+    border-radius: 50%;
+    border: 1px solid cornflowerblue;
+    background: none;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Edu SA Beginner', cursive;
+    margin-bottom: 10px;
+    color: cornflowerblue;
+}

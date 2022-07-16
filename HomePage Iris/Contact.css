@@ -1,0 +1,68 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(ballet.jpg);
+    background-repeat:no-repeat;
+    background-position:right;
+}
+.main{
+    background-color: #ad6d88;
+    width: 1000px;
+    height: 585px;
+    margin: 15px auto;
+    border-radius: 25%;
+}
+.main>.form{
+    background-color: whitesmoke;
+    width:550px;
+    height:450px;
+    padding-top: 15px;
+    margin-top:10%;
+    margin-left: 25%;
+    border-radius: 25%;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Alex Brush', cursive;
+    text-shadow:2px 2px #ad6d88;
+}
+.email,.text{
+    margin-left: 150px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    width: 250px;
+}
+.text{
+    height: 200px;
+}
+button{
+    margin-top: 25px;
+    margin-left: 240px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Alex Brush', cursive;
+    color: black;
+    background-color: #ad6d88;
+    border:2px solid #ad6d88;
+    border-radius: 33%;
+    width: 80px;
+}
+button:hover{
+    text-shadow: 2px 2px whitesmoke;
+}
+.call{
+    font-family: 'Alex Brush', cursive;
+    font-size: 55px;
+    text-align: center; 
+}
+.tel{
+    margin-left: 100px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    width: 250px; 
+    height: 35px; 
+}
