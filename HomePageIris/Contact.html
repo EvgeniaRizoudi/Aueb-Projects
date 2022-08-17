@@ -21,12 +21,14 @@
     <div class="main">
         <div class="form">
             <h1>Let's talk!</h1>
-            <input class="email" type="email" placeholder="Your Email" required>
-            <br>
-            <input class="text" type="text" placeholder="Your Comment">
-            <br>
-            <button type="submit">Send!
-            </button>
+            <form action="mailto:mikrikinezoul@hotmail.com" method="post" enctype="text/plain">
+                <input class="email" name="Email" type="email" placeholder="Your Email" required>
+                <br>
+                <input class="text" type="text" name="Message" placeholder="Your Comment">
+                <br>
+                <button type="submit">Send!
+                </button>
+            </form>
         </div>
         <div class="call">
             <p>If you want us to contact you</p>

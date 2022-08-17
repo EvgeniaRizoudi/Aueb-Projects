@@ -72,6 +72,9 @@ a:hover{
   line-height: 30px;
   background: none;
 }
+.togglemenu>li a{
+    color: #000000;
+}
 .togglemenu .toggledropDown{
     display: none;
 } 

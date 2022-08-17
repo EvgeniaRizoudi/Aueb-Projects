@@ -7,18 +7,19 @@ body{
     background-image: url(ballet.jpg);
     background-repeat:no-repeat;
     background-position:right;
+    justify-content: right;
 }
 .main{
     background-color: #ad6d88;
-    width: 1000px;
-    height: 585px;
-    margin: 15px auto;
+    width: 40%;
+    height: 60%;
+    margin: 0 auto;
     border-radius: 25%;
 }
 .main>.form{
     background-color: whitesmoke;
-    width:550px;
-    height:450px;
+    width:50%;
+    height:45%;
     padding-top: 15px;
     margin-top:10%;
     margin-left: 25%;
@@ -31,17 +32,18 @@ h1{
     text-shadow:2px 2px #ad6d88;
 }
 .email,.text{
-    margin-left: 150px;
+    margin-left: 15%;
     margin-bottom: 5px;
     padding-bottom: 5px;
-    width: 250px;
+    width: 75%;
 }
 .text{
     height: 200px;
 }
 button{
     margin-top: 25px;
-    margin-left: 240px;
+    margin-left: 42%;
+    margin-bottom: 5%;
     font-size: 25px;
     font-weight: bold;
     font-family: 'Alex Brush', cursive;
@@ -49,7 +51,7 @@ button{
     background-color: #ad6d88;
     border:2px solid #ad6d88;
     border-radius: 33%;
-    width: 80px;
+    width: 20%;
 }
 button:hover{
     text-shadow: 2px 2px whitesmoke;
@@ -60,9 +62,54 @@ button:hover{
     text-align: center; 
 }
 .tel{
-    margin-left: 100px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    width: 35%; 
+    height: 30%; 
+}
+@media only screen and (max-width:576px) {
+ 
+body{
+    background-position: left;
+    background-size: 100%;
+}
+ h1{
+    font-size: 25px;
+ }  
+ .main {
+    width: 50%;
+    height: fit-content;
+    font-size: 10px;
+}
+.main>.form{
+    width: 70%;
+    height: fit-content;
+    padding-top: 15px;
+    margin-top:10%;
+    margin-left: 15%;
+
+}
+.email,.text{
+    margin-left: 15%;
     margin-bottom: 5px;
     padding-bottom: 5px;
-    width: 250px; 
-    height: 35px; 
+    width: 75%;
+}
+button{
+    margin-top: 2%;
+    width: fit-content;
+    font-size: 100%;
+}
+.call{
+    font-size:20px ;
+}
+.tel{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    width: 35%; 
+    height: 30%; 
+    font-size: 6px;
+}
 }
